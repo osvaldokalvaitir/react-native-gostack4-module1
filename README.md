@@ -12,6 +12,8 @@
 
   - [Bibliotecas](#bibliotecas)
 
+  - [Outras Ferramentas](#outras-ferramentas)
+
   - [Erros Comuns](#erros-comuns)
 
 ## Desenvolvimento
@@ -33,6 +35,12 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
 
 - [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
+
+- [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
+
+### Outras Ferramentas
+
+- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspectors/reactotron.md)
 
 ### Erros Comuns
 
