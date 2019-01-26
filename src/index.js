@@ -1,24 +1,21 @@
-import "./config/ReactotronConfig";
+import './config/ReactotronConfig';
 
-import React, { Component } from "react";
-import { Text, StyleSheet, View, Button } from "react-native";
+import React, { Component } from 'react';
+import {
+  Text, StyleSheet, View, Button,
+} from 'react-native';
 
-import Todo from "./components/Todo";
-
-console.tron.log("Hello World");
+import Todo from './components/Todo';
 
 export default class App extends Component {
   state = {
-    usuario: "Osvaldo",
-    todos: [
-      { id: 0, text: "Fazer café" },
-      { id: 1, text: "Estudar o Módulo 1" }
-    ]
+    usuario: 'Osvaldo',
+    todos: [{ id: 0, text: 'Fazer café' }, { id: 1, text: 'Estudar o Módulo 1' }],
   };
 
   addTodo = () => {
     this.setState({
-      todos: [...this.state.todos, { id: Math.random(), text: "Novo todo" }]
+      todos: [...this.state.todos, { id: Math.random(), text: 'Novo todo' }],
     });
   };
 
@@ -40,22 +37,22 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#333",
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "space-around",
-    alignContent: "center"
+    backgroundColor: '#333',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    alignContent: 'center',
   },
 
   box: {
     width: 80,
     height: 80,
-    backgroundColor: "#F00",
+    backgroundColor: '#F00',
     margin: 10,
-    transform: [{ rotateZ: "20deg" }]
+    transform: [{ rotateZ: '20deg' }],
   },
 
   boxText: {
-    color: "#FFF"
-  }
+    color: '#FFF',
+  },
 });
