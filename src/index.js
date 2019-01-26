@@ -12,6 +12,18 @@ export default class App extends Component {
     ]
   };
 
+  componentDidMount() {}
+
+  static getDerivedStateFromProps(nextProps, prevState) {
+    return true;
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {}
+
+  componentDidUpdate(prevProps, prevstate) {}
+
+  componentWillUnmount() {}
+
   addTodo = () => {
     this.setState({
       todos: [...this.state.todos, { id: Math.random(), text: "Novo todo" }]
