@@ -12,18 +12,6 @@ export default class App extends Component {
     ]
   };
 
-  componentDidMount() {}
-
-  static getDerivedStateFromProps(nextProps, prevState) {
-    return true;
-  }
-
-  shouldComponentUpdate(nextProps, nextState) {}
-
-  componentDidUpdate(prevProps, prevstate) {}
-
-  componentWillUnmount() {}
-
   addTodo = () => {
     this.setState({
       todos: [...this.state.todos, { id: Math.random(), text: "Novo todo" }]
@@ -33,11 +21,13 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>{this.state.usuario}</Text>
-        {this.state.todos.map(todo => (
-          <Todo key={todo.id} title={todo.text} />
-        ))}
-        <Button title="Adicionar todo" onPress={this.addTodo} />
+        <View style={styles.box} />
+        <View style={styles.box} />
+        <View style={styles.box} />
+        <View style={styles.box} />
+        <View style={styles.box}>
+          <Text style={styles.boxText}>Oi</Text>
+        </View>
       </View>
     );
   }
@@ -46,8 +36,22 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#f5f5f5"
+    backgroundColor: "#333",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-around",
+    alignContent: "center"
+  },
+
+  box: {
+    width: 80,
+    height: 80,
+    backgroundColor: "#F00",
+    margin: 10,
+    transform: [{ rotateZ: "20deg" }]
+  },
+
+  boxText: {
+    color: "#FFF"
   }
 });
