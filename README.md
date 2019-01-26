@@ -10,6 +10,8 @@
 
   - [Execução do Projeto](#execução-do-projeto)
 
+  - [Bibliotecas](#bibliotecas)
+
   - [Erros Comuns](#erros-comuns)
 
 ## Desenvolvimento
@@ -25,6 +27,10 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga a Execução de Projeto.
+
+### Bibliotecas
+
+- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
 
 ### Erros Comuns
 
