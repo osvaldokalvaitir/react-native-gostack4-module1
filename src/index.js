@@ -5,7 +5,7 @@ import {
   Text, StyleSheet, View, Button,
 } from 'react-native';
 
-import Todo from './components/Todo';
+import Todo from '~/components/Todo';
 
 export default class App extends Component {
   state = {
