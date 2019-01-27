@@ -1,6 +1,12 @@
 # React Native - Módulo 1
 
+Aplicação usando React Native, ESLint, Prettier, EditorConfig, Babel Root Import, Babel Module Resolver, React DevTools, prop-types, DebugJS e Reactotron.
+
 ## Índice
+
+- [Telas](#telas)
+
+  - [Principal](#principal)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -15,6 +21,13 @@
   - [Outras Ferramentas](#outras-ferramentas)
 
   - [Erros Comuns](#erros-comuns)
+
+## Telas
+
+### Principal
+
+![Main](/assets/main.png)
+Esta é a única tela, onde o usuário pode visualizar a lista estática criada.
 
 ## Desenvolvimento
 
