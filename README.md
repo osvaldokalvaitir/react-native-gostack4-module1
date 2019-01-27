@@ -42,6 +42,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
 
+- [react-devtools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-devtools.md)
+
 - [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
 
 - [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
