@@ -20,8 +20,6 @@ Aplicação usando React Native, ESLint, Prettier, EditorConfig, Babel Root Impo
 
   - [Outras Ferramentas](#outras-ferramentas)
 
-  - [Erros Comuns](#erros-comuns)
-
 ## Telas
 
 ### Principal
@@ -64,17 +62,3 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Outras Ferramentas
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspectors/reactotron.md)
-
-### Erros Comuns
-
-No desenvolvimento, depois de instalar uma biblioteca que use recursos nativos (ex: a biblioteca de ícones) será necessário executar o comando abaixo e reiniciar a emulação do projeto:
-
-```
-react-native link nome-da-biblioteca
-```
-
-No desenvolvimento, se ocorrer um erro de módulo não encontrado, será necessário fechar a janela de execução do Metro Bundler, executar o comando abaixo e reiniciar a emulação do projeto:
-
-```
-react-native start --reset-cache
-```
