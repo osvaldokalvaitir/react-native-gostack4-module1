@@ -51,6 +51,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [ESLint plugin for React Native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-react-native.md)
 
+- [eslint-import-resolver-babel-plugin-root-import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-import-resolver-babel-plugin-root-import.md)
+
 - [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
 
 - [react-devtools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-devtools.md)
