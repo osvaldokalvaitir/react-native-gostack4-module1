@@ -36,7 +36,7 @@ Aplicação usando React Native, ESLint, Prettier, EditorConfig, Babel Root Impo
 
 ### Principal
 
-![Main](/assets/main.png)
+![Main](/.github/assets/main.png)
 Esta é a única tela, onde o usuário pode visualizar a lista estática criada.
 
 ## Desenvolvimento
