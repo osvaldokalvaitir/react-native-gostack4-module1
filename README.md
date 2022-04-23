@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  📄 Application using React Native, ESLint, Prettier, EditorConfig, Babel Root Import, Babel Module Resolver, React DevTools, prop-types, DebugJS and Reactotron
+  :page_facing_up: Application using React Native, ESLint, Prettier, EditorConfig, Babel Root Import, Babel Module Resolver, React DevTools, prop-types, DebugJS and Reactotron
 </p>
 
 <p align="center">
